@@ -816,7 +816,7 @@ function make_sdcard() {
 	};
 
 	local part=""
-	if [ `echo ${LPARAM_BLOCK_DEVICE} | grep -c mmcblk` -ne 0 ]; then
+	if [ `echo ${LPARAM_BLOCK_DEVICE} | grep -c mmcblk` -ne 0 ] || [ `echo ${LPARAM_BLOCK_DEVICE} | grep -c loop` -ne 0 ]; then
 		part="p"
 	fi
 
