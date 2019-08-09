@@ -40,15 +40,15 @@ readonly G_VARISCITE_PATH="${DEF_BUILDENV}/variscite"
 
 ## LINUX kernel: git, config, paths and etc
 readonly G_LINUX_KERNEL_SRC_DIR="${DEF_SRC_DIR}/kernel"
-readonly G_LINUX_KERNEL_GIT="https://github.com/varigit/linux-imx.git"
+readonly G_LINUX_KERNEL_GIT="https://github.com/Motsai/linux-imx.git"
 readonly G_LINUX_KERNEL_BRANCH="imx_4.14.78_1.0.0_ga_var01"
 readonly G_LINUX_KERNEL_REV="24fdd148d748ccb0fc7e6dbd00de0477eb0d0b4b"
 readonly G_LINUX_KERNEL_DEF_CONFIG='imx8_var_defconfig'
-readonly G_LINUX_DTB='freescale/fsl-imx8mq-var-dart-sd-emmc-lvds.dtb freescale/fsl-imx8mq-var-dart-sd-emmc-hdmi.dtb freescale/fsl-imx8mq-var-dart-sd-emmc-dual-display.dtb freescale/fsl-imx8mq-var-dart-emmc-wifi-lvds.dtb freescale/fsl-imx8mq-var-dart-emmc-wifi-hdmi.dtb freescale/fsl-imx8mq-var-dart-emmc-wifi-dual-display.dtb freescale/fsl-imx8mq-var-dart-m4-sd-emmc-lvds.dtb freescale/fsl-imx8mq-var-dart-m4-sd-emmc-hdmi.dtb freescale/fsl-imx8mq-var-dart-m4-sd-emmc-dual-display.dtb freescale/fsl-imx8mq-var-dart-m4-emmc-wifi-lvds.dtb freescale/fsl-imx8mq-var-dart-m4-emmc-wifi-hdmi.dtb freescale/fsl-imx8mq-var-dart-m4-emmc-wifi-dual-display.dtb freescale/fsl-imx8mq-var-dart-sd-emmc-lvds-cb12.dtb freescale/fsl-imx8mq-var-dart-sd-emmc-hdmi-cb12.dtb freescale/fsl-imx8mq-var-dart-sd-emmc-dual-display-cb12.dtb freescale/fsl-imx8mq-var-dart-emmc-wifi-lvds-cb12.dtb freescale/fsl-imx8mq-var-dart-emmc-wifi-hdmi-cb12.dtb freescale/fsl-imx8mq-var-dart-emmc-wifi-dual-display-cb12.dtb freescale/fsl-imx8mq-var-dart-m4-sd-emmc-lvds-cb12.dtb freescale/fsl-imx8mq-var-dart-m4-sd-emmc-hdmi-cb12.dtb freescale/fsl-imx8mq-var-dart-m4-sd-emmc-dual-display-cb12.dtb freescale/fsl-imx8mq-var-dart-m4-emmc-wifi-lvds-cb12.dtb freescale/fsl-imx8mq-var-dart-m4-emmc-wifi-hdmi-cb12.dtb freescale/fsl-imx8mq-var-dart-m4-emmc-wifi-dual-display-cb12.dtb'
+readonly G_LINUX_DTB='freescale/fsl-imx8mq-var-dart-motsai-p146.dtb freescale/fsl-imx8mq-var-dart-sd-emmc-lvds.dtb freescale/fsl-imx8mq-var-dart-sd-emmc-hdmi.dtb freescale/fsl-imx8mq-var-dart-sd-emmc-dual-display.dtb freescale/fsl-imx8mq-var-dart-emmc-wifi-lvds.dtb freescale/fsl-imx8mq-var-dart-emmc-wifi-hdmi.dtb freescale/fsl-imx8mq-var-dart-emmc-wifi-dual-display.dtb freescale/fsl-imx8mq-var-dart-m4-sd-emmc-lvds.dtb freescale/fsl-imx8mq-var-dart-m4-sd-emmc-hdmi.dtb freescale/fsl-imx8mq-var-dart-m4-sd-emmc-dual-display.dtb freescale/fsl-imx8mq-var-dart-m4-emmc-wifi-lvds.dtb freescale/fsl-imx8mq-var-dart-m4-emmc-wifi-hdmi.dtb freescale/fsl-imx8mq-var-dart-m4-emmc-wifi-dual-display.dtb freescale/fsl-imx8mq-var-dart-sd-emmc-lvds-cb12.dtb freescale/fsl-imx8mq-var-dart-sd-emmc-hdmi-cb12.dtb freescale/fsl-imx8mq-var-dart-sd-emmc-dual-display-cb12.dtb freescale/fsl-imx8mq-var-dart-emmc-wifi-lvds-cb12.dtb freescale/fsl-imx8mq-var-dart-emmc-wifi-hdmi-cb12.dtb freescale/fsl-imx8mq-var-dart-emmc-wifi-dual-display-cb12.dtb freescale/fsl-imx8mq-var-dart-m4-sd-emmc-lvds-cb12.dtb freescale/fsl-imx8mq-var-dart-m4-sd-emmc-hdmi-cb12.dtb freescale/fsl-imx8mq-var-dart-m4-sd-emmc-dual-display-cb12.dtb freescale/fsl-imx8mq-var-dart-m4-emmc-wifi-lvds-cb12.dtb freescale/fsl-imx8mq-var-dart-m4-emmc-wifi-hdmi-cb12.dtb freescale/fsl-imx8mq-var-dart-m4-emmc-wifi-dual-display-cb12.dtb'
 
 ## uboot
 readonly G_UBOOT_SRC_DIR="${DEF_SRC_DIR}/uboot"
-readonly G_UBOOT_GIT="https://github.com/varigit/uboot-imx.git"
+readonly G_UBOOT_GIT="https://github.com/Motsai/uboot-imx.git"
 readonly G_UBOOT_BRANCH="motsai"
 readonly G_UBOOT_REV="0e734b6c1c83aa80ade185471ef0aee5bc11c8b0"
 readonly G_UBOOT_DEF_CONFIG_MMC='imx8m_var_dart_defconfig'
