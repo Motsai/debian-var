@@ -50,7 +50,7 @@ readonly G_LINUX_DTB='freescale/fsl-imx8mq-var-dart-motsai-p146.dtb freescale/fs
 readonly G_UBOOT_SRC_DIR="${DEF_SRC_DIR}/uboot"
 readonly G_UBOOT_GIT="https://github.com/Motsai/uboot-imx.git"
 readonly G_UBOOT_BRANCH="motsai"
-readonly G_UBOOT_REV="0e734b6c1c83aa80ade185471ef0aee5bc11c8b0"
+readonly G_UBOOT_REV="98bd37faa86c2d0641f96647e4f739c38ee1e530"
 readonly G_UBOOT_DEF_CONFIG_MMC='imx8m_var_dart_defconfig'
 readonly G_UBOOT_NAME_FOR_EMMC='imx-boot-sd.bin'
 
